@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "10.0"
 
-  s.source       = { :http => "https://identity-wallet-dependencies.s3.eu-central-1.amazonaws.com/IndySdk-1.15.0/IndySdk.zip" }
+  s.source       = { :http => "https://raw.githubusercontent.com/JamesKEbert/indy-sdk-react-native/main/IndySdk.zip" }
   s.framework    = "Indy"
   s.source_files = "**/*.h"
   s.vendored_frameworks = "IndySdk/Indy.framework"
