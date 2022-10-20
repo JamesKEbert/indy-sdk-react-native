@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
   s.source       = { :http => "https://github.com/hyperledger/indy-sdk-react-native/releases/download/0.2.2/ios-indy-sdk-1.16.0.zip" }
   s.framework    = "Indy"
   s.source_files = "**/*.h"
-  s.vendored_frameworks = "IndySdk/Indy.framework"
+  s.vendored_frameworks = "Indy.Framework-Main/Indy.framework"
 
 end
